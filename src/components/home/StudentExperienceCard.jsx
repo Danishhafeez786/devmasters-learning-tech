@@ -5,10 +5,10 @@ function StudentExperienceCard({ item }) {
     <article
       className={`group relative overflow-hidden rounded-3xl bg-slate-100 ${
         item.size === "large"
-          ? "min-h-[420px] lg:row-span-2"
+          ? "min-h-105 lg:row-span-2"
           : item.size === "medium"
-          ? "min-h-[200px]"
-          : "min-h-[200px]"
+          ? "min-h-50"
+          : "min-h-50"
       }`}
     >
       {/* Image */}
@@ -22,7 +22,7 @@ function StudentExperienceCard({ item }) {
 
       {/* Overlay */}
 
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-slate-950/90 via-slate-950/20 to-transparent" />
 
       {/* Content */}
 

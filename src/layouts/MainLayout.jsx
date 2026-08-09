@@ -4,6 +4,7 @@ import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 import WhatsAppButton from "../components/common/WhatsAppButton";
 import ScrollToTop from "../components/common/ScrollToTop";
+import AdmissionCampaign from "../components/common/AdmissionCampaign";
 
 function MainLayout() {
   return (
@@ -11,7 +12,7 @@ function MainLayout() {
       <ScrollToTop />
 
       <Navbar />
-
+      <AdmissionCampaign />
       <main className="flex-1">
         <Outlet />
       </main>
