@@ -15,7 +15,7 @@ export const studentExperience = [
     category: "Training",
     description:
       "Hands-on learning and guided classroom practice.",
-    image: "/images/students/classroom-practice.jpg",
+    image: "/images/institute/institute-classroom.jpg",
     size: "medium",
   },
 
@@ -25,7 +25,7 @@ export const studentExperience = [
     category: "Seminars",
     description:
       "Students participating in seminars, workshops and learning events.",
-    image: "/images/seminars/seminar-session.jpg",
+    image: "/images/seminars/seminar-03.jpg",
     size: "medium",
   },
 
@@ -35,7 +35,7 @@ export const studentExperience = [
     category: "Projects",
     description:
       "Practical projects created as part of the learning journey.",
-    image: "/images/projects/student-projects.jpg",
+    image: "/images/students/student-03.jpg",
     size: "small",
   },
 
@@ -45,7 +45,7 @@ export const studentExperience = [
     category: "Institute",
     description:
       "Our learning environment and training facilities.",
-    image: "/images/institute/institute-environment.jpg",
+    image: "/images/institute/institute-front.jpg",
     size: "small",
   },
 
@@ -55,7 +55,7 @@ export const studentExperience = [
     category: "Training",
     description:
       "Learning through practical exercises and real-world tasks.",
-    image: "/images/students/practical-learning.jpg",
+    image: "/images/seminars/seminar-01.jpg",
     size: "small",
   },
 ];
