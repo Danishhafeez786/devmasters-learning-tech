@@ -1,16 +1,20 @@
+import CoursesHero from "../components/courses/CoursesHero";
+import CoursesGrid from "../components/courses/CoursesGrid";
+import CourseBenefits from "../components/courses/CourseBenefits";
+
+import FinalCTA from "../components/home/FinalCTA";
+
 function Courses() {
   return (
-    <section className="min-h-screen px-4 py-20">
-      <div className="mx-auto max-w-7xl">
-        <h1 className="text-4xl font-black text-slate-950">
-          Our Courses
-        </h1>
+    <>
+      <CoursesHero />
 
-        <p className="mt-4 text-slate-600">
-          Practical, career-focused courses at DevMastersLearningTech.
-        </p>
-      </div>
-    </section>
+      <CoursesGrid />
+
+      <CourseBenefits />
+
+      <FinalCTA />
+    </>
   );
 }
 

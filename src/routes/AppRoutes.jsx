@@ -29,10 +29,7 @@ function AppRoutes() {
 
         <Route path="/courses" element={<Courses />} />
 
-        <Route
-          path="/courses/:slug"
-          element={<CourseDetails />}
-        />
+        <Route path="/courses/:courseId" element={<CourseDetails />} />
 
         <Route path="/projects" element={<Projects />} />
 
@@ -42,10 +39,7 @@ function AppRoutes() {
 
         <Route path="/videos" element={<Videos />} />
 
-        <Route
-          path="/testimonials"
-          element={<Testimonials />}
-        />
+        <Route path="/testimonials" element={<Testimonials />} />
 
         <Route path="/events" element={<Events />} />
 
