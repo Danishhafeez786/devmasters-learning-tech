@@ -65,7 +65,7 @@ function FeaturedCourses() {
         ========================== */}
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-
+            {console.log("Featured Courses:", featuredCourses)}
           {featuredCourses.map((course) => (
             <CourseCard
               key={course.id}

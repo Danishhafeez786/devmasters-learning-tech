@@ -14,12 +14,17 @@ export const courses = [
     title: "Full Stack Development",
 
     shortTitle: "Full Stack Development",
+	
+	description:
+      "Learn modern frontend and backend development and build complete web applications from start to finish.",
 
-    category: "development",
+	duration: "48 Weeks",
+	
+	level: "Beginner to Advanced",
 
-    level: "Beginner to Advanced",
-
-    duration: "48 Weeks",
+    category: "Development",
+	
+	icon: Code2,
 
     format: "Practical Training",
 
@@ -42,6 +47,8 @@ export const courses = [
       "MongoDB",
       "REST API",
     ],
+	
+	featured: true,
 
     benefits: [
       "Build complete web applications",
@@ -50,8 +57,6 @@ export const courses = [
       "Build practical portfolio projects",
       "Understand modern development workflows",
     ],
-
-    featured: true,
 
     popular: true,
 
