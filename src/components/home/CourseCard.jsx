@@ -16,7 +16,7 @@ function CourseCard({ course }) {
           IMAGE
       ========================== */}
 
-      <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
+      <div className="relative aspect-16/10 overflow-hidden bg-slate-100">
 
         <img
           src={course.image}
@@ -26,7 +26,7 @@ function CourseCard({ course }) {
         />
 
         {/* Image Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-80" />
+        <div className="absolute inset-0 bg-linear-to-t from-slate-950/70 via-transparent to-transparent opacity-80" />
 
         {/* Category */}
         <div className="absolute left-4 top-4">
