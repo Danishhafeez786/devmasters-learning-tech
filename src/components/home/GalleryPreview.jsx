@@ -6,7 +6,7 @@ import {
   Sparkles,
 } from "lucide-react";
 
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 import Container from "../common/Container";
 import GalleryCard from "./GalleryCard";

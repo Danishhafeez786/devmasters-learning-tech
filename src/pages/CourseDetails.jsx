@@ -1,4 +1,4 @@
-import { Navigate, useParams } from "react-router";
+import { Navigate, useParams } from "react-router-dom";
 
 import CourseDetailsHero from "../components/course-details/CourseDetailsHero";
 import CourseQuickStats from "../components/course-details/CourseQuickStats";

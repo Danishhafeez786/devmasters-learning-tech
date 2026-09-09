@@ -3,7 +3,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 function ServiceCard({ service }) {
   const Icon = service.icon;

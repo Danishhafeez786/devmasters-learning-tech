@@ -6,7 +6,7 @@ import {
   Phone,
   X,
 } from "lucide-react";
-import { Link, NavLink } from "react-router";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
