@@ -22,6 +22,7 @@ function AppRoutes() {
     <Routes>
       <Route element={<MainLayout />}>
         <Route path="/devmasters-learning-tech/" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
         <Route path="/about" element={<About />} />
 
